@@ -25,7 +25,7 @@ def main():
     val = int(input("Enter the search key\n"))
     out = search(arr, val)
     if out != -1:
-        print("The index is: ", search(arr, val))
+        print("The index is: ", out)
     else:
         print("Not found.")
 
